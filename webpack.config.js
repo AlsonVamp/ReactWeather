@@ -11,10 +11,10 @@ module.exports = {
     jquery: 'jQuery'
   },
   plugins: [
-new webpack.ProvidePlugin({
-  '$':'jquery',
-  'jQuery':'jquery'
-})
+    new webpack.ProvidePlugin({
+      '$': 'jquery',
+      'jQuery': 'jquery'
+    })
   ],
   output: {
     path: __dirname,
@@ -31,8 +31,8 @@ new webpack.ProvidePlugin({
       WeatherMessage$: path.join(__dirname, 'app/components/WeatherMessage.jsx'),
       openWeatherMap$: path.join(__dirname, 'app/api/openWeatherMap.jsx'),
       apiKey$: path.join(__dirname, 'app/api/apiKey.js'),
-      ErrorModal$:path.join(__dirname,'app/components/ErrorModal.jsx')
-
+      ErrorModal$: path.join(__dirname, 'app/components/ErrorModal.jsx'),
+      applicationStyles$: path.join(__dirname, 'app/styles/app.css')
     },
     extensions: ['.js', '.jsx']
   },
