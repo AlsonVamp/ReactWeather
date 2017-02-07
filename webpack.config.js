@@ -30,7 +30,8 @@ new webpack.ProvidePlugin({
       WeatherForm$: path.join(__dirname, 'app/components/WeatherForm.jsx'),
       WeatherMessage$: path.join(__dirname, 'app/components/WeatherMessage.jsx'),
       openWeatherMap$: path.join(__dirname, 'app/api/openWeatherMap.jsx'),
-      apiKey$: path.join(__dirname, 'app/api/apiKey.js')
+      apiKey$: path.join(__dirname, 'app/api/apiKey.js'),
+      ErrorModal$:path.join(__dirname,'app/components/ErrorModal.jsx')
 
     },
     extensions: ['.js', '.jsx']
