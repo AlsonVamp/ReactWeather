@@ -32,7 +32,7 @@ module.exports = {
       openWeatherMap$: path.join(__dirname, 'app/api/openWeatherMap.jsx'),
       apiKey$: path.join(__dirname, 'app/api/apiKey.js'),
       ErrorModal$: path.join(__dirname, 'app/components/ErrorModal.jsx'),
-      applicationStyles$: path.join(__dirname, 'app/styles/app.css')
+      applicationStyles$: path.join(__dirname, 'app/styles/app.scss')
     },
     extensions: ['.js', '.jsx']
   },
